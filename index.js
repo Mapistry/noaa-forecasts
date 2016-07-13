@@ -145,7 +145,7 @@ var noaaForecaster = {
         var forecastData = forecasts.data;
 
         if (/^<error>/.test(forecastData) ) {
-          let newUrl = this._parseError(forecastData, url);
+          var newUrl = this._parseError(forecastData, url);
           if (newUrl) {
             return this._makeCall(newUrl);
           }
