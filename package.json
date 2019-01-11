@@ -1,5 +1,5 @@
 {
-  "name": "noaa-forecasts",
+  "name": "@mapistry/noaa-forecasts",
   "version": "0.0.3",
   "description": "A Promised-based library for fetching JSON forecast data from NOAA",
   "main": "index.js",
@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thataustin/noaa-forecasts.git"
+    "url": "https://github.com/mapistry/noaa-forecasts.git"
   },
   "keywords": [
     "noaa",
     "forecast",
     "weather"
   ],
-  "author": "thataustin@gmail.com",
+  "author": "Mapistry",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thataustin/noaa-forecasts/issues"
+    "url": "https://github.com/mapistry/noaa-forecasts/issues"
   },
-  "homepage": "https://github.com/thataustin/noaa-forecasts",
+  "homepage": "https://github.com/mapistry/noaa-forecasts",
   "dependencies": {
     "bluebird": "^2.9.30",
     "dwml-to-json": "0.0.3",
